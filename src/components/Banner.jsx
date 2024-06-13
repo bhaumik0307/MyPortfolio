@@ -61,7 +61,7 @@ const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className='tagline'>Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Bhaumik `}<br/> <span className='txt-rotate' ><span className='wrap text-purple-500'>{text}</span></span></h1>
-                  <p>Student at IIIT Kota(2022-2026),<br/> A passionate web developer and a responsible citizen.<br/></p>
+                  <p>Student at IIIT Kota(2022-2026),<br/> A passionate web developer and competitive programmer.<br/></p>
                   <a href='#connect'><button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button></a>
                 </div>}
             </TrackVisibility>
