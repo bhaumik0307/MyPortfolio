@@ -34,17 +34,26 @@ const NavBar = () => {
     setActive(value)
   }
 
+  const handleClick = () => {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('hidden');
+  }
+
   return (
     <Router>
-      <Navbar className={`${scrolled?"scrolled":""}`}>
+      <Navbar className={scrolled?"scrolled":""}>
         <Container>
           <Navbar.Brand href = "/">
             <img className='h-[80px]' src={logo} alt="" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls = "basic-navbar-nav">
-            <span className='navbar-toggler-icon'></span>
-          </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <div className="block lg:hidden">
+                <button onClick={handleClick} className="text-white focus:outline-none">
+                    <svg className="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id='menu' className="hidden lg:flex lg:items-center lg:w-auto w-full">
             <Nav className='ms-auto'>
               <Nav.Link href="#home" className={active === 'home'? 'active navbar-link': 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={active === 'skills'? 'active navbar-link': 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
@@ -61,7 +70,7 @@ const NavBar = () => {
                 <button className="vvd"><span>Let&apos;s Connect</span></button>
               </Nav.Link>
             </span>
-          </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
     </Router>
