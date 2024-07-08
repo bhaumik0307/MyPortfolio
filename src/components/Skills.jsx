@@ -39,19 +39,19 @@ const Skills = () => {
                             <Carousel responsive={responsive} className='owl-carousel owl-theme skill-slider'>
                                 <div className='item'>
                                     <img src={meter1} alt="" />
-                                    <h2>Data Structures</h2>
+                                    <h5>Data Structures</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter2} alt="" />
-                                    <h2>Web development</h2>
+                                    <h5>Web development</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter3} alt="" />
-                                    <h2>Algorithms</h2>
+                                    <h5>Algorithms</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter2} alt="" />
-                                    <h2>Database Management</h2>
+                                    <h5>Database Management</h5>
                                 </div>
                             </Carousel>
                         </div>

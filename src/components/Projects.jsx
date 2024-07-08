@@ -4,11 +4,11 @@ import ProjectCard from '../components/ProjectCard'
 const Projects = () => {
   const projects = [
     {
-      imgUrl: '/assets/img/food.png',
-      title: 'Food Ordering UI',
-      description: 'Built a UI design for a food ordering website. It can be used as an example to create fully functional website',
-      githubLink: 'https://github.com/bhaumik0307/Food_ordering_website',
-      projectLink: 'https://bhaumik0307.github.io/Food_ordering_website/',
+      imgUrl: '/assets/img/flix-demand.png',
+      title: 'Flix Demand',
+      description: 'This is a website for renting movies. Users can rent their favourite movies online without any inconvenience',
+      githubLink: 'https://github.com/bhaumik0307/flixdemand',
+      projectLink: 'https://flixdemand.netlify.app/',
       live: true
     },
     {
@@ -28,12 +28,12 @@ const Projects = () => {
       live: true
     },
     {
-      imgUrl: '/assets/img/todo.png',
-      title: 'Todo List',
-      description: 'A simple example of CRUD operations using Node.js Express.js and mongodb, todo list can be hosted locally to make a note of all daily tasks',
-      githubLink: 'https://github.com/bhaumik0307/To_do_list',
-      projectLink: '',
-      live: false
+      imgUrl: '/assets/img/portfolio.png',
+      title: 'Portfolio',
+      description: 'This is my personal portfolio website that showcases my skills and my recent projects.',
+      githubLink: 'https://github.com/bhaumik0307/MyPortfolio',
+      projectLink: 'https://bhaumikchauhan.netlify.app/',
+      live: true
     },
   ]
   return (
