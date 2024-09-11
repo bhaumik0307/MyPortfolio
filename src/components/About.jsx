@@ -28,7 +28,7 @@ const About = () => {
           <p className="text-white text-lg mb-8 mb-lg-0">
             Hi! My name is Bhaumik. I am a full stack web developer and a competitive programmer. My interest in web development started from 2nd semester of my college and from then I never stopped myself from learning new technologies in the field of web development. I love building websites from scratch and designing them on my own. Building something and adding it to the web just gives me a kick in life.
             <br /><br />
-            Apart from web development, I also do competitive programming. I am a 3-star coder on CodeChef and a pupil on Codeforces, although it keeps on increasing and decreasing 😅. I am a dedicated and hardworking individual and I give my 100% on whatever I start to learn.
+            Apart from web development, I also do competitive programming. I am a 3-star coder on CodeChef and a pupil on Codeforces. I am a dedicated and hardworking individual and I give my 100% on whatever I start to learn.
           </p>
         </div>
         <div className="lg:w-1/2 flex justify-center items-center justify-lg-start">
