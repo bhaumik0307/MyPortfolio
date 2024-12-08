@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/VueCjY01.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/icons8-github.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon3 from '../assets/img/leetcode-svg.svg';
 import { FaGithub } from "react-icons/fa";
 // import Insta from './svg/Insta'
 // import Fb from './svg/Fb'
@@ -62,9 +62,9 @@ const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
               <div className='social-icon'>
-                <a href="https://www.linkedin.com/in/bhaumik-chauhan-415468257/"><img className='w-6' src={navIcon1} alt="linkedin" /></a>
-                <a href="https://github.com/bhaumik0307"><img className='w-6' src={navIcon2} alt="github" /></a>
-                <a href="https://www.instagram.com/bhaumik_chauhan_08/"><img className='w-6' src={navIcon3} alt="instagram" /></a>
+                <a href="https://www.linkedin.com/in/bhaumik-chauhan-513526330/" target='_blank'><img className='w-6' src={navIcon1} alt="linkedin" /></a>
+                <a href="https://github.com/bhaumik0307" target='_blank'><img className='w-6' src={navIcon2} alt="github" /></a>
+                <a href="https://leetcode.com/u/cbhaumik08/" target='_blank'><img className='w-6' src={navIcon3} alt="leetcode" /></a>
               </div>
               <Nav.Link href='#connect'>
                 <button className="vvd"><span>Let&apos;s Connect</span></button>
