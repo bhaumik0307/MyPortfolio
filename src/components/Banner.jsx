@@ -62,7 +62,7 @@ const Banner = () => {
                   <span className='tagline'>Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Bhaumik `}<br/> <span className='txt-rotate' ><span className='wrap text-purple-500'>{text}</span></span></h1>
                   <p>Student at IIIT Kota(2022-2026),<br/> A passionate web developer and competitive programmer.<br/></p>
-                  <a href='https://drive.google.com/file/d/1yJ1p52IrpUyMP06S9vwylFOYGBYFoZde/view?usp=sharing' target='_blank'><button onClick={() => console.log('connect')}>My Resume <ArrowRightCircle size={25} /></button></a>
+                  <a href='https://drive.google.com/file/d/1UV2kHDzWTi8xfk0brWeOfCrbDkVrCeaZ/view?usp=sharing' target='_blank'><button onClick={() => console.log('connect')}>My Resume <ArrowRightCircle size={25} /></button></a>
                 </div>}
             </TrackVisibility>
           </Col>
